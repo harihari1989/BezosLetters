@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Deep year-by-year breakdown of Jeff Bezos shareholder letters from 1997 to 2020."
+    />
+    <title>Deep Letter Details | Day 1 Principles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="details.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-a" aria-hidden="true"></div>
+    <div class="ambient ambient-b" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html#top">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Day 1 Principles</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">
+        Menu
+      </button>
+      <nav id="mainNav" class="main-nav">
+        <a href="index.html#top">Home</a>
+        <a href="#overview">Overview</a>
+        <a href="#matrix">Deep Matrix</a>
+        <a href="index.html#viewer">PDF Viewer</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section id="overview" class="hero reveal">
+        <p class="kicker">1997-2020 Shareholder Letters</p>
+        <h1>Deep annual breakdown across <span>strategy, metrics, operations, and people</span>.</h1>
+        <p class="lede">
+          This page summarizes every letter year and links each entry to the source PDF start page.
+          Use search and filters to move quickly across themes.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#matrix">Explore Deep Matrix</a>
+          <a class="btn btn-ghost" href="index.html#viewer">Open Embedded PDF Viewer</a>
+        </div>
+      </section>
+
+      <section id="matrix" class="section">
+        <div class="section-head reveal">
+          <p class="eyebrow">Complete Matrix</p>
+          <h2>All years covered with direct source links</h2>
+          <p class="section-note">
+            Summaries are organized for fast review; the attached PDF remains the source of complete
+            detail.
+          </p>
+        </div>
+
+        <div class="control-bar reveal">
+          <label for="detailSearch">Search</label>
+          <input
+            id="detailSearch"
+            type="search"
+            placeholder="Search year or theme (e.g. Prime, high standards, AWS)"
+          />
+
+          <label for="focusArea">Focus</label>
+          <select id="focusArea" aria-label="Focus area">
+            <option value="all">All categories</option>
+            <option value="strategy">Strategy only</option>
+            <option value="metrics">Metrics only</option>
+            <option value="operations">Operations only</option>
+            <option value="people">People only</option>
+          </select>
+
+          <label for="sortOrder">Order</label>
+          <select id="sortOrder" aria-label="Sort order">
+            <option value="asc">1997 to 2020</option>
+            <option value="desc">2020 to 1997</option>
+          </select>
+        </div>
+
+        <div id="yearPills" class="year-pills reveal"></div>
+        <div id="detailGrid" class="detail-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer reveal">
+      <p>
+        Coverage includes every year from 1997 to 2020 with PDF page jumps for source validation.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="details.js"></script>
+  </body>
+</html>

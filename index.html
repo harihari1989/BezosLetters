@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A static website inspired by Jeff Bezos's shareholder letters: customer obsession, Day 1 mindset, long-term thinking, and invention."
+    />
+    <title>Day 1 Principles | Bezos Letters</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-a" aria-hidden="true"></div>
+    <div class="ambient ambient-b" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Day 1 Principles</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">
+        Menu
+      </button>
+      <nav id="mainNav" class="main-nav">
+        <a href="details.html">Deep Details</a>
+        <a href="#principles">Principles</a>
+        <a href="#flywheel">Flywheel</a>
+        <a href="#archive">Archive</a>
+        <a href="#viewer">PDF Viewer</a>
+        <a href="#playbook">Playbook</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero reveal">
+        <p class="kicker">Inspired by Jeff Bezos's Shareholder Letters</p>
+        <h1>Build like it is always <span>Day 1</span>.</h1>
+        <p class="lede">
+          Customer obsession over competitor focus. Long-term value over short-term applause.
+          Invent boldly, accept failure, and keep decision velocity high.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#principles">Explore Principles</a>
+          <a class="btn btn-ghost" href="details.html">Year-by-Year Deep Dive</a>
+          <a class="btn btn-ghost" href="#viewer">Open Full Letter PDF</a>
+        </div>
+      </section>
+
+      <section id="principles" class="section">
+        <div class="section-head reveal">
+          <p class="eyebrow">Core Ideas</p>
+          <h2>Eight operating principles that repeat across the letters</h2>
+        </div>
+        <div class="card-grid">
+          <article class="principle-card reveal">
+            <h3>Customer Obsession</h3>
+            <p>Start from customer pain points and work backward to product choices.</p>
+          </article>
+          <article class="principle-card reveal">
+            <h3>Day 1 Mindset</h3>
+            <p>Stay curious, fast, and externally focused to avoid organizational drift.</p>
+          </article>
+          <article class="principle-card reveal">
+            <h3>Long-Term Thinking</h3>
+            <p>Prefer durable compounding over near-term optimization.</p>
+          </article>
+          <article class="principle-card reveal">
+            <h3>Invention Culture</h3>
+            <p>Require experimentation, and treat failed experiments as tuition.</p>
+          </article>
+          <article class="principle-card reveal">
+            <h3>High Standards</h3>
+            <p>Raise quality bars through clear expectations and constant calibration.</p>
+          </article>
+          <article class="principle-card reveal">
+            <h3>Decision Velocity</h3>
+            <p>Use reversible decisions quickly; reserve deep process for irreversible ones.</p>
+          </article>
+          <article class="principle-card reveal">
+            <h3>Ownership</h3>
+            <p>Think like builders with responsibility beyond your immediate team.</p>
+          </article>
+          <article class="principle-card reveal">
+            <h3>Operational Excellence</h3>
+            <p>Pair ambition with disciplined execution and measurable outcomes.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="flywheel" class="section section-alt">
+        <div class="section-head reveal">
+          <p class="eyebrow">Mechanism</p>
+          <h2>The flywheel logic</h2>
+        </div>
+        <div class="flywheel reveal">
+          <div class="ring"></div>
+          <div class="node n1">Better CX</div>
+          <div class="node n2">More Traffic</div>
+          <div class="node n3">More Sellers</div>
+          <div class="node n4">Lower Cost</div>
+          <div class="node n5">Lower Prices</div>
+          <div class="center">Repeat</div>
+        </div>
+      </section>
+
+      <section id="archive" class="section">
+        <div class="section-head reveal">
+          <p class="eyebrow">Complete Coverage</p>
+          <h2>Every shareholder letter from 1997 to 2020</h2>
+          <p class="section-note">
+            Year cards summarize major themes, and each one jumps to the exact starting page in
+            the embedded source PDF.
+          </p>
+        </div>
+        <div class="archive-grid">
+          <article class="archive-card reveal" data-year="1997">
+            <p class="year">1997</p>
+            <h3>Day 1 and long-term market leadership</h3>
+            <p>Customer obsession, long-term value creation, and aggressive infrastructure buildout.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="1997" data-page="1">Open page 1</a>
+          </article>
+          <article class="archive-card reveal" data-year="1998">
+            <p class="year">1998</p>
+            <h3>Expansion with customer focus</h3>
+            <p>Rapid category and international expansion while reinforcing customer-centric execution.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="1998" data-page="6">Open page 6</a>
+          </article>
+          <article class="archive-card reveal" data-year="1999">
+            <p class="year">1999</p>
+            <h3>Scale foundations and bold choices</h3>
+            <p>Goals for 2000 centered on capacity, systems resilience, and disciplined growth.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="1999" data-page="11">Open page 11</a>
+          </article>
+          <article class="archive-card reveal" data-year="2000">
+            <p class="year">2000</p>
+            <h3>Durability through downturns</h3>
+            <p>Amid market stress, emphasis shifted to operating leverage and financial discipline.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2000" data-page="16">Open page 16</a>
+          </article>
+          <article class="archive-card reveal" data-year="2001">
+            <p class="year">2001</p>
+            <h3>Differentiated retail model</h3>
+            <p>Selection depth, personalization, and free cash flow discipline reinforced moat building.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2001" data-page="18">Open page 18</a>
+          </article>
+          <article class="archive-card reveal" data-year="2002">
+            <p class="year">2002</p>
+            <h3>Ownership over tenancy</h3>
+            <p>Long-term ownership mindset became explicit in strategy and capital decisions.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2002" data-page="21">Open page 21</a>
+          </article>
+          <article class="archive-card reveal" data-year="2003">
+            <p class="year">2003</p>
+            <h3>Long horizon decision-making</h3>
+            <p>Investments prioritized for durable customer value rather than short-term optics.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2003" data-page="24">Open page 24</a>
+          </article>
+          <article class="archive-card reveal" data-year="2004">
+            <p class="year">2004</p>
+            <h3>Free cash flow per share</h3>
+            <p>The primary financial lens became long-term free cash flow generation.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2004" data-page="26">Open page 26</a>
+          </article>
+          <article class="archive-card reveal" data-year="2005">
+            <p class="year">2005</p>
+            <h3>Data, judgment, and mechanisms</h3>
+            <p>Operational choices balanced analytical models with experienced judgment.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2005" data-page="29">Open page 29</a>
+          </article>
+          <article class="archive-card reveal" data-year="2006">
+            <p class="year">2006</p>
+            <h3>Planting new business seeds</h3>
+            <p>Disciplined incubation of high-potential initiatives alongside core execution.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2006" data-page="31">Open page 31</a>
+          </article>
+          <article class="archive-card reveal" data-year="2007">
+            <p class="year">2007</p>
+            <h3>Kindle and category invention</h3>
+            <p>A major platform bet: digital reading ecosystem and long-range product thinking.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2007" data-page="33">Open page 33</a>
+          </article>
+          <article class="archive-card reveal" data-year="2008">
+            <p class="year">2008</p>
+            <h3>Long-term focus in turbulence</h3>
+            <p>Customer obsession and disciplined investment during a difficult global economy.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2008" data-page="35">Open page 35</a>
+          </article>
+          <article class="archive-card reveal" data-year="2009">
+            <p class="year">2009</p>
+            <h3>Compounding customer inputs</h3>
+            <p>Selection, speed, and price improvements accumulated into stronger outcomes.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2009" data-page="37">Open page 37</a>
+          </article>
+          <article class="archive-card reveal" data-year="2010">
+            <p class="year">2010</p>
+            <h3>Technical depth at scale</h3>
+            <p>Services architecture, machine learning, and distributed systems became core levers.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2010" data-page="39">Open page 39</a>
+          </article>
+          <article class="archive-card reveal" data-year="2011">
+            <p class="year">2011</p>
+            <h3>The Power of Invention</h3>
+            <p>AWS, FBA, and KDP highlighted platform-based invention and self-service scale.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2011" data-page="41">Open page 41</a>
+          </article>
+          <article class="archive-card reveal" data-year="2012">
+            <p class="year">2012</p>
+            <h3>Proactive customer delight</h3>
+            <p>Trust-building mechanisms and long-cycle bets (Prime, AWS, devices) accelerated.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2012" data-page="44">Open page 44</a>
+          </article>
+          <article class="archive-card reveal" data-year="2013">
+            <p class="year">2013</p>
+            <h3>Broad initiative velocity</h3>
+            <p>Prime, video, devices, seller tooling, and service quality advanced in parallel.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2013" data-page="46">Open page 46</a>
+          </article>
+          <article class="archive-card reveal" data-year="2014">
+            <p class="year">2014</p>
+            <h3>Dreamy business criteria</h3>
+            <p>Scale, durability, customer love, and return on capital framed portfolio choices.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2014" data-page="53">Open page 53</a>
+          </article>
+          <article class="archive-card reveal" data-year="2015">
+            <p class="year">2015</p>
+            <h3>Multiple engines at scale</h3>
+            <p>$100B+ retail and AWS growth demonstrated compounding from independent bets.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2015" data-page="58">Open page 58</a>
+          </article>
+          <article class="archive-card reveal" data-year="2016">
+            <p class="year">2016</p>
+            <h3>Defending Day 1</h3>
+            <p>Avoiding Day 2 through decision speed, experimentation, and customer-centered mechanisms.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2016" data-page="64">Open page 64</a>
+          </article>
+          <article class="archive-card reveal" data-year="2017">
+            <p class="year">2017</p>
+            <h3>High standards as a system</h3>
+            <p>Standards, scope, and teachability were treated as operating mechanisms.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2017" data-page="67">Open page 67</a>
+          </article>
+          <article class="archive-card reveal" data-year="2018">
+            <p class="year">2018</p>
+            <h3>Wandering and big-bet experimentation</h3>
+            <p>Third-party seller growth, machine learning, and willingness to absorb large failures.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2018" data-page="73">Open page 73</a>
+          </article>
+          <article class="archive-card reveal" data-year="2019">
+            <p class="year">2019</p>
+            <h3>Crisis response and resilience</h3>
+            <p>COVID-era operations, employee support, and critical infrastructure commitments.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2019" data-page="77">Open page 77</a>
+          </article>
+          <article class="archive-card reveal" data-year="2020">
+            <p class="year">2020</p>
+            <h3>Stakeholder value and transition</h3>
+            <p>Value creation across customers, employees, sellers, and shareholders; leadership handoff.</p>
+            <a class="archive-link year-jump" href="#viewer" data-year-jump="2020" data-page="82">Open page 82</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="viewer" class="section section-alt">
+        <div class="section-head reveal">
+          <p class="eyebrow">Primary Source</p>
+          <h2>Embedded letter PDF viewer</h2>
+          <p class="section-note">
+            This viewer contains the full source document, so every original detail is available.
+          </p>
+        </div>
+        <div class="viewer-panel reveal">
+          <div class="viewer-controls">
+            <label for="yearSelect">Jump to year</label>
+            <select id="yearSelect" aria-label="Select letter year">
+              <option value="1997" data-page="1">1997</option>
+              <option value="1998" data-page="6">1998</option>
+              <option value="1999" data-page="11">1999</option>
+              <option value="2000" data-page="16">2000</option>
+              <option value="2001" data-page="18">2001</option>
+              <option value="2002" data-page="21">2002</option>
+              <option value="2003" data-page="24">2003</option>
+              <option value="2004" data-page="26">2004</option>
+              <option value="2005" data-page="29">2005</option>
+              <option value="2006" data-page="31">2006</option>
+              <option value="2007" data-page="33">2007</option>
+              <option value="2008" data-page="35">2008</option>
+              <option value="2009" data-page="37">2009</option>
+              <option value="2010" data-page="39">2010</option>
+              <option value="2011" data-page="41">2011</option>
+              <option value="2012" data-page="44">2012</option>
+              <option value="2013" data-page="46">2013</option>
+              <option value="2014" data-page="53">2014</option>
+              <option value="2015" data-page="58">2015</option>
+              <option value="2016" data-page="64">2016</option>
+              <option value="2017" data-page="67">2017</option>
+              <option value="2018" data-page="73">2018</option>
+              <option value="2019" data-page="77">2019</option>
+              <option value="2020" data-page="82">2020</option>
+            </select>
+            <a
+              id="openPdfTab"
+              class="btn btn-ghost"
+              href="jeff-bezos-amazon-shareholder-letters-1997_2020.pdf#page=1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open In New Tab
+            </a>
+          </div>
+          <p id="viewerMeta" class="viewer-meta">Showing 1997 letter start (page 1).</p>
+          <iframe
+            id="letterViewer"
+            title="Jeff Bezos shareholder letters PDF"
+            src="jeff-bezos-amazon-shareholder-letters-1997_2020.pdf#page=1&view=FitH"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="playbook" class="section section-playbook">
+        <div class="section-head reveal">
+          <p class="eyebrow">Action</p>
+          <h2>30-day Day 1 playbook</h2>
+        </div>
+        <ol class="playbook reveal">
+          <li><strong>Week 1:</strong> Interview 10 customers and list top 3 recurring frictions.</li>
+          <li><strong>Week 2:</strong> Ship one reversible experiment targeting the largest friction.</li>
+          <li><strong>Week 3:</strong> Define one quality bar with examples of acceptable vs excellent.</li>
+          <li><strong>Week 4:</strong> Remove one process step that slows customer-facing decisions.</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer reveal">
+      <p>Built as a static reference site inspired by themes from Jeff Bezos's shareholder letters.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
